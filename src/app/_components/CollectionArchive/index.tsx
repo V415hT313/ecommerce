@@ -36,7 +36,7 @@ export type Props = {
 }
 
 export const CollectionArchive: React.FC<Props> = props => {
-  const { categoryFilters, sort } = useFilter()
+  const { categoryFilters, sort } = useFilter();
 
   const {
     className,
